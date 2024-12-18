@@ -25,7 +25,7 @@ const fonwhereInput = document.querySelector('.fonwhere');
         
         const fonname = fonnameInput.value;
         
-        const fonfrom = fonwhereInput.value;
+        const fonfrom = fonfromInput.value;
         
         const fonwhere = fonwhereInput.value;
         console.log(`Введено: ${fonfullname} \n ${fonnumber} \n ${fonname} \n ${fonfrom} \n ${fonwhere}`);
