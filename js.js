@@ -31,7 +31,7 @@ const fonwhereInput = document.querySelector('.fonwhere');
         console.log(`Введено: ${fonfullname} \n ${fonnumber} \n ${fonname} \n ${fonfrom} \n ${fonwhere}`);
         
 
-        if (fonfullnameInput.value == '' || fonnumberInput.value == '' || fonnameInput.value == '' || fonfromInput.value == '' || fonfromInput.value == ''){
+        if (fonfullnameInput.value == '' || fonnumberInput.value == '' || fonnameInput.value == '' || fonfromInput.value == '' || fonwhereInput.value == ''){
             alert('Вы заполнили не все поля, проверьте еще раз')
         }else if (button.className == 'button'){
             alert('Пожалуйста дайте согласие на обработку персональных данных')
